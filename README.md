@@ -32,9 +32,6 @@
 
 ![场次管理](picture/场景管理页面展示.png)
 
-<details>
-<summary>查看营业额统计与 DM 开本统计</summary>
-
 营业额总览与趋势：
 
 ![营业额总览与趋势](picture/营业额统计展示-1.png)
@@ -46,8 +43,6 @@
 DM 开本次数、薪资及近期趋势：
 
 ![DM开本统计](picture/DM开本统计展示.png)
-
-</details>
 
 ## 项目目录介绍
 
