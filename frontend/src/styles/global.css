@@ -1,0 +1,168 @@
+/* 全局样式与 Element Plus 主题变量覆盖（类纸白茶棕风格）。 */
+
+:root {
+  /* Element Plus 主题色覆盖 */
+  --el-color-primary: #8B7355;
+  --el-color-primary-light-3: #A8907A;
+  --el-color-primary-light-5: #C4B2A0;
+  --el-color-primary-light-7: #D9CDC0;
+  --el-color-primary-light-8: #E5DDD0;
+  --el-color-primary-light-9: #EFE8DF;
+  --el-color-primary-dark-2: #7A6348;
+
+  /* 背景色 */
+  --el-bg-color: #FAF6F0;
+  --el-bg-color-overlay: #FAF6F0;
+  --el-bg-color-page: #FAF6F0;
+
+  /* 边框色 */
+  --el-border-color: #D9D0C1;
+  --el-border-color-light: #E5DDD0;
+  --el-border-color-lighter: #EFE8DF;
+
+  /* 文字色 */
+  --el-text-color-primary: #3D3226;
+  --el-text-color-regular: #5C4F3E;
+  --el-text-color-secondary: #8C7B6B;
+  --el-text-color-placeholder: #BFB5A8;
+
+  /* 字体 */
+  --el-font-family: "SimSun", "STSong", "宋体", "Noto Serif SC", serif;
+  --el-font-size-base: 14px;
+  --el-border-radius-base: 4px;
+
+  /* 菜单色 */
+  --el-menu-bg-color: #F0EBE2;
+  --el-menu-text-color: #5C4F3E;
+  --el-menu-active-color: #8B7355;
+  --el-menu-hover-bg-color: #EBE3D6;
+
+  /* 表格 */
+  --el-table-header-bg-color: #F0EBE2;
+  --el-table-tr-bg-color: #FAF6F0;
+  --el-table-row-hover-bg-color: #F5F0E8;
+
+  /* 功能色 */
+  --success-color: #6B8E6B;
+  --warning-color: #C4A35A;
+  --danger-color: #C46B5A;
+  --info-color: #7B8EA3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #app {
+  height: 100%;
+  font-family: "SimSun", "STSong", "宋体", "Noto Serif SC", serif;
+  font-size: 14px;
+  color: #3D3226;
+  background: #FAF6F0;
+}
+
+/* 页面标题：仿宋，不加粗 */
+.page-title {
+  font-family: "STFangsong", "FZFS", "FangSong", "华文仿宋", "仿宋", "Noto Serif SC", serif;
+  font-size: 22px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: #3D3226;
+  margin-bottom: 8px;
+}
+
+/* 签名横线分隔 */
+.divider-line {
+  height: 1px;
+  background: #E0D7C8;
+  margin: 12px 0 20px 0;
+  border: none;
+}
+
+/* 侧边栏样式 */
+.sidebar-container {
+  width: 220px;
+  background: #F0EBE2;
+  border-right: 1px solid #E0D7C8;
+  min-height: 100vh;
+}
+
+.sidebar-logo {
+  padding: 24px 16px;
+  font-family: "STFangsong", "FZFS", "FangSong", "华文仿宋", "仿宋", serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #3D3226;
+  text-align: center;
+}
+
+/* 内容区 */
+.main-content {
+  background: #FAF6F0;
+  padding: 24px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+/* 表格列标题 */
+.el-table th {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* 表格正文单元格字体 */
+.el-table td,
+.el-table .el-table__cell,
+.el-table .cell {
+  font-family: "SimSun", "STSong", "宋体", "Noto Serif SC", serif !important;
+}
+
+/* 卡片（留言板用） */
+.message-card {
+  background: #FDFBF7;
+  border: 1px solid #E5DDD0;
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 12px;
+  transition: border-color 0.2s;
+}
+
+.message-card:hover {
+  border-color: #D9D0C1;
+}
+
+/* 过期红色标注 */
+.expired-text {
+  color: #C46B5A;
+}
+
+/* 金额显示字体 */
+.money-font {
+  font-family: "SimSun", "STSong", "宋体", "Noto Serif SC", serif !important;
+}
+
+/* 弹窗标题仿宋 */
+.el-dialog__title {
+  font-family: "STFangsong", "FZFS", "FangSong", "华文仿宋", "仿宋", serif;
+  font-size: 18px !important;
+  font-weight: normal !important;
+}
+
+/* 抽屉标题仿宋 */
+.el-drawer__title {
+  font-family: "STFangsong", "FZFS", "FangSong", "华文仿宋", "仿宋", serif !important;
+  font-size: 18px !important;
+  font-weight: normal !important;
+}
+
+/* 菜单项激活态竖条 */
+.el-menu .el-menu-item.is-active {
+  border-left: 3px solid #8B7355;
+}
+
+/* 遮罩层暖色 */
+.el-overlay {
+  background-color: rgba(61, 50, 38, 0.3) !important;
+}

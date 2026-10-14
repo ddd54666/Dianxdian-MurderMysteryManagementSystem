@@ -1,0 +1,59 @@
+# 运行时数据，含店铺真实经营数据，严禁上传
+config.json
+database.db
+database.db-wal
+database.db-shm
+database.db-journal
+backup/
+
+# 项目文档，仅保留在本地
+/docs/
+README-1.md
+
+# 本地 AI 工具说明
+AGENTS.md
+CLAUDE.md
+
+# 真实数据源表格，含剧本名单与 DM 名单
+data.xlsx
+DM.xlsx
+*.xlsx
+
+# 测试临时库，test_final_review.py 在项目内创建，异常中断时可能残留
+dianxdian_test_*/
+
+# Python 编译产物
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 前端依赖
+frontend/node_modules/
+frontend/dist/
+
+# 打包产物
+build/
+dist/
+*.spec
+
+# 开发环境
+.env
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
